@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="aosp" fetch="https://android.googlesource.com/" />
+    <remote name="github" fetch="https://github.com/" />
+
+    <default revision="android-13.0.0_r1" remote="aosp" sync-j="4" />
+
+    <!-- Device specific -->
+    <project name="aosp-playground/android_device_xiaomi_sweet" path="device/xiaomi/sweet" remote="github" revision="thirteen" />
+    <project name="aosp-playground/proprietary_vendor_xiaomi_sweet" path="vendor/xiaomi/sweet" remote="github" revision="thirteen" />
+    <project name="vantoman/kernel_xiaomi_sm6150" path="kernel/xiaomi/sweet" remote="github" revision="13" />
+</manifest>
